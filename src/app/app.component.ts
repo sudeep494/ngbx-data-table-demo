@@ -10,7 +10,7 @@ export class AppComponent {
 	title = 'ngbx-demo';
 	constructor(private http: HttpClient) { }
 
-	url = 'http://5c78b1f83a89af0014cd7109.mockapi.io/test/documents';
+	url = 'https://5c78b1f83a89af0014cd7109.mockapi.io/test/documents';
 
 	documents = [];
 
