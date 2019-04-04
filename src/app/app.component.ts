@@ -37,7 +37,7 @@ export class AppComponent {
 
 	columns = [
 		{'name':'Name', 'label':'Product', 'sortable':true},
-		{'name':'Price', 'label':'Price', 'sortable':true, template:'PriceTemplate'},
+		{'name':'Price', 'label':'Price', 'sortable':true, template:'PriceTemplate', tooltip:'Plus Shipping'},
 		{'name':'Color', 'label':'Color', 'sortable':false},
 		{'name':'SellerCity', 'label':'Ships From', 'sortable':false, template:'SellerTemplate'},
 		{'name':'ID', 'label':'More Info', 'sortable':false, template:'MoreInfoTemplate'}
